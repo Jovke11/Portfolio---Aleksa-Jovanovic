@@ -217,3 +217,15 @@
     }
 
 }
+@media (max-width: 400px) {
+    .contact-box {
+        padding: 15px;
+    }
+
+    .contact-box i {
+        display: block;
+        margin-bottom: 6px;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+}
