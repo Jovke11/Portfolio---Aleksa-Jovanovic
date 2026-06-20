@@ -89,7 +89,7 @@
 }
 @media (max-width: 576px) {
 
-    /* NAV LINKS centar */
+    
     .nav-links {
         flex-direction: column;
         text-align: center;
