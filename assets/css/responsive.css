@@ -96,12 +96,12 @@
         margin-top: 15px;
     }
 
-    /* HERO dugmad malo udesno ka centru */
+    
     .terminal-box .d-flex {
         justify-content: center;
     }
 
-    /* SKILLS naslov centar */
+    
     .skills-section .section-title {
         justify-content: center;
         text-align: center;
@@ -111,25 +111,25 @@
         grid-template-columns: 1fr;
     }
 
-    /* ABOUT spacing */
+    
     .hero-row {
         text-align: center;
     }
 }
 @media (min-width: 577px) and (max-width: 992px) {
 
-    /* HERO dugmad (run projects + contact) centriraj */
+    
     .terminal-box .d-flex {
         justify-content: center !important;
         gap: 15px;
     }
 
-    /* ako i dalje nisu vizuelno centrirani → blagi shift */
+    
     .terminal-box {
         text-align: center;
     }
 
-    /* SKILLS / VEŠTINE centriranje */
+    
     .skills-section .section-title {
         justify-content: center;
     }
@@ -142,7 +142,7 @@
 }
 @media (min-width: 577px) and (max-width: 992px) {
 
-    /* FORCE centriranje cele sekcije */
+   
     .skills-section .section-title,
     .section-title {
         width: 100%;
@@ -152,14 +152,14 @@
         text-align: center;
     }
 
-    /* BITNO: sprečava Bootstrap container offset osećaj */
+    
     .skills-section .container {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    /* GRID centriranje (ovo je ključno) */
+    
     .skills-grid {
         width: 100%;
         justify-content: center;
