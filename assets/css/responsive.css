@@ -205,20 +205,15 @@
         flex: 1;
     }
 }
-@media (max-width: 380px) {
-    .contact-box {
-        padding: 18px;
+@media (min-width: 992px) {
+
+    .contact-section .row {
+        align-items: stretch;
     }
 
-    .contact-box i {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-        font-size: 14px;
-        word-break: break-word;
+    .contact-box,
+    .contact-form-box {
+        height: 100%;
     }
 
-    .contact-box {
-        overflow-wrap: anywhere;
-    }
 }
