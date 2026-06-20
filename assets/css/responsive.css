@@ -205,15 +205,3 @@
         flex: 1;
     }
 }
-@media (min-width: 992px) {
-
-    .contact-section .row {
-        align-items: stretch;
-    }
-
-    .contact-box,
-    .contact-form-box {
-        height: 100%;
-    }
-
-}
