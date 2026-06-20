@@ -314,7 +314,7 @@ section {
 .edu-item:hover:has(.status.in-progress) {
     border-left: 2px solid #ffd54a;
 }
-/* SKILLS */
+
 .skills-section {
     padding: 100px 0;
 }
@@ -399,13 +399,13 @@ section {
     text-shadow: 0 0 8px #00ff88;
 }
 
-/* SOON override */
+
 .project-year.coming-soon {
     color: #ffd54a;
     text-shadow: 0 0 10px rgba(255, 213, 74, 0.8);
 }
 
-/* hover ne sme da ga dira */
+
 .project-card:hover .project-year.coming-soon {
     color: #ffd54a !important;
     text-shadow: 0 0 18px rgba(255, 213, 74, 1) !important;
@@ -450,7 +450,7 @@ section {
     text-shadow: 0 0 8px #00ff88;
 }
 
-/* form inputs */
+
 .contact-form-box .form-control {
     background: #0d1117;
     border: 1px solid #30363d;
